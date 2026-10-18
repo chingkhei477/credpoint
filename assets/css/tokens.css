@@ -1,0 +1,56 @@
+/* CredPoint design tokens — change colours, type and spacing here */
+@font-face { font-family: "Inter"; src: url("../fonts/inter-regular.woff") format("woff"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Inter"; src: url("../fonts/inter-medium.woff") format("woff"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Inter"; src: url("../fonts/inter-semibold.woff") format("woff"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Inter Display"; src: url("../fonts/inter-display-semibold.woff") format("woff"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Inter Display"; src: url("../fonts/inter-display-bold.woff") format("woff"); font-weight: 700; font-display: swap; }
+
+:root {
+  /* Brand */
+  --navy-950: #070f22;
+  --navy-900: #0a1630;
+  --navy-800: #10224a;
+  --navy-700: #17305e;
+  --navy-600: #24427a;
+  --teal-400: #3fd6c6;
+  --teal-500: #17c3b2;
+  --teal-600: #0fa596;
+  --teal-700: #0b7c72;
+  --teal-100: #dcf7f3;
+  --teal-50: #effbf9;
+
+  /* Neutrals */
+  --white: #ffffff;
+  --ice: #f3f6fb;
+  --mist: #e8edf6;
+  --line: #dfe5ef;
+  --slate-700: #2c3a57;
+  --slate-600: #46547a;
+  --slate-500: #5f6c8c;
+  --slate-300: #a9b4cc;
+
+  /* Status */
+  --amber-100: #fdf1d6;
+  --amber-700: #8a5a00;
+  --coral-100: #fde4de;
+  --coral-700: #a63a22;
+  --blue-100: #e3ebfb;
+  --blue-700: #24427a;
+
+  /* Type */
+  --font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif;
+  --font-display: "Inter Display", "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Shape & space */
+  --r-xs: 8px;
+  --r-sm: 12px;
+  --r-md: 16px;
+  --r-lg: 24px;
+  --r-xl: 32px;
+  --wrap: 1180px;
+  --gutter: clamp(16px, 4vw, 32px);
+  --header-h: 72px;
+  --shadow-sm: 0 1px 2px rgba(10, 22, 48, 0.06);
+  --shadow-md: 0 1px 2px rgba(10, 22, 48, 0.05), 0 12px 32px -12px rgba(10, 22, 48, 0.22);
+  --shadow-lg: 0 30px 60px -24px rgba(7, 15, 34, 0.45);
+}
